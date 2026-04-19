@@ -1,6 +1,4 @@
-# saving_food
-<<<<<<< Updated upstream
-.
-=======
-g
->>>>>>> Stashed changes
+# Project Documentation
+
+This folder contains all system analysis and design documents for the Food Rescue Platform project.
+
