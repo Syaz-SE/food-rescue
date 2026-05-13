@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Outfit", "Tajawal", sans-serif;
+}
+
+html[lang="ar"],
+html[dir="rtl"] {
+  font-family: "Tajawal", "Outfit", sans-serif;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #111827;
+  background: #ffffff;
+}
+
+*::selection {
+  background: #ffe4e6;
+  color: #9f1239;
+}
+
+html[dir="rtl"] .rtl\:rotate-180 {
+  transform: rotate(180deg);
+}
